@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0 ,maximum-scale=1.0, initial-scale=1" user-scalable="no">
+    <title>Notification Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="favicon.ico" rel="shortcut icon" />
+</head>
+
+<body>
+    <button type="button">Notify</button>
+    <script src="js/notify.js"></script>
+    <script>
+    var button = document.querySelector('button');
+    button.addEventListener('click', function() {
+        var title = 'Hello';
+        var body = 'How Are You?';
+        NotifyMe(title, { body: body }).launch();
+    });
+    </script>
+</body>
+
+</html>

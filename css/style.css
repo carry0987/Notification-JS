@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Main Style */
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background-color: #EFEFEF;
+}
+
+button {
+    font-size: large;
+}
